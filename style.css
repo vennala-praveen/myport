@@ -126,11 +126,13 @@ nav .navlinks li a{
 
 .my-text h5{
     color: #e5e5e5;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 5px;
 }
 .my-text h5 span{
     color: #007ced;
     font-size: 16px;
+    padding: 5px;
 }
 
 .my-text h1{
@@ -140,6 +142,7 @@ nav .navlinks li a{
 
 .my-text p{
     color: #e5e5e5;
+    line-height: 1.9em;
 }
 
 .btn-group{
