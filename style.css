@@ -92,3 +92,84 @@ nav .navlinks li a{
     margin-right: 2.5rem;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.container .my-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #444;
+    box-shadow: 5px 7px 25px rgba(0,0,0,0.5);
+}
+
+.my-pic img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.my-pic img:hover{
+    transform: scale(1.2);
+}
+
+.my-text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-text h5{
+    color: #e5e5e5;
+    font-size: 16px;
+}
+.my-text h5 span{
+    color: #007ced;
+    font-size: 16px;
+}
+
+.my-text h1{
+    color: #007ced;
+    font-size: 3rem;
+}
+
+.my-text p{
+    color: #e5e5e5;
+}
+
+.btn-group{
+    margin: 45px 0;
+}
+.btn-group .btn{
+    border-color: #d5d5d5;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 25px;
+    margin: 5px 0;
+    margin-right: 7px;
+    border: 2px solid #e5e5e5;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px -8px rbg(0 0 0 / 78%);
+}
+
+.btn.active{
+    border-color: #007ced;
+}
+
+@media(max-width: 930px){
+    nav .togglebtn{
+        display: initial;
+    }
+    .click{
+        top: 45px;
+    }
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+}
